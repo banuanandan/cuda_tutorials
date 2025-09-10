@@ -16,7 +16,7 @@ Browse the tutorial directories and follow the examples to learn CUDA programmin
 |-------------|------------------|--------|
 | Ubuntu OS   |      22.04       |   ✅   |
 | Kernel      | 6.8.0-79-generic |   ✅   |
-| CUDA        |      12.6        |   ✅   |
+| CUDA        |    12.6, 13.0    |   ✅   |
 | GCC         |      11.4.0      |   ✅   |
 | Bazel       |      8.2.1       |   ✅   |
 

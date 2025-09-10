@@ -2,7 +2,9 @@
 common --enable_bzlmod
 
 # Uncomment to see which rc files are being read.
-# common --announce_rc
+common --announce_rc
+
+build --repository_cache=./.cache
 
 # Convenient flag shortcuts.
 build --flag_alias=enable_cuda=@rules_cuda//cuda:enable
@@ -16,3 +18,8 @@ build --enable_cuda=True
 # Use --config=clang to build with clang instead of gcc and nvcc.
 build:clang --repo_env=CC=clang
 build:clang --@rules_cuda//cuda:compiler=clang
+
+build:debug --compilation_mode=dbg --strip=never
+
+
+
