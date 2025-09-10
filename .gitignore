@@ -1,0 +1,43 @@
+# Ignore Bazel output
+bazel-*
+.cache/
+
+# Ignore build artifacts
+*.o
+*.so
+*.out
+*.a
+*.exe
+*.log
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore CUDA build artifacts
+*.ptx
+*.cubin
+*.fatbin
+
+# Ignore generated files
+*.d
+*.gcno
+*.gcda
+
+# Ignore core dumps
+core*
+
+# Ignore backup files
+*~
+*.swp
+
+# Ignore test results
+/test-results/
+
+# Ignore Python cache (if any)
+__pycache__/
+
+# Ignore other common Bazel files
+bazel-out/
+bazel-bin/
+bazel-testlogs/
+bazel-genfiles/
