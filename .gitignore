@@ -2,6 +2,9 @@
 bazel-*
 .cache/
 
+# Ignore Zone identity files for WSL
+*Zone.Identifier
+
 # Ignore build artifacts
 *.o
 *.so
